@@ -3,15 +3,12 @@ import Item from './Item'
 import Grid from '@material-ui/core/Grid'
 
 export default function ListSection(props) {
-
-    // const { list } = props
     
     const showListItems = props.list.map(listItem => {
         return <Item  key={listItem.id} id={listItem.id} name={listItem.name} listId={listItem.listId} />
     })
     return(
         <div>
-            <p>List section</p>
             <button>All Items</button>
             <button>ListId One</button>
             <button>ListId Two</button>

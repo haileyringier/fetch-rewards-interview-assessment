@@ -8,7 +8,7 @@ export default function Item(props) {
 
     return(
         <Grid item xs={2}>
-            <Paper>
+            <Paper >
                 <p>ID: {id}</p>
                 <p>ListID: {listId}</p>
                 <p>Name: {name}</p>
