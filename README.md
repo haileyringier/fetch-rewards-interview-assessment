@@ -5,7 +5,6 @@
 * [General info](#general-info)
 * [Intro Video](#intro-video)
 * [Setup](#setup)
-* [Features](#features)
 * [Contact](#contact)
 
 ## General info
@@ -27,17 +26,6 @@ I used React as my frontend framework and incorporated Material-UI for styling. 
 1. 
 1.  
   $ 
-1. 
-    $ 
-    $ 
-
-
-## Features
-* Tap sapce bar to make the bird fly
-* Add points to the score for each pipe the bird passes
-* compare your score to the high score
-* Toast Alert to notify user game has ended 
-* Start and stop game using one button
 
 ## Status
 
