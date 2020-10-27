@@ -16,17 +16,15 @@ After I filtered the data, I then created a helper function that sorts the data 
 
 I then took the sorted data and created another helper function that groups the data by the listId property which reflected in all the objects with the "listId" of "1" being then subsequently sorted by the "name" property. 
 
-There are five buttons that when clicked to filter the data to show data with the corresponding "listId". 
+There are five buttons that when clicked to filter the data to show the items with the corresponding "listId". 
 
-
-
-## Intro Video
-[Walkthrough of Coding Exercise]()
 
 ## Setup
-1. 
-1.  
-  $ 
+1. Fork and Clone the [backend repository](https://github.com/haileyringier/fetch-rewards-interview-backend) and this repository.  
+1.  To get the proxy running, make sure you are in backend repository directory and run npm install, to make sure that you have all the necessary packages and their dependencies. 
+1. the script to start the server is ```npm start```.
+1. Once your server is up and running, open another terminal tab and in the front end repository run npm install.
+1. After the packages are done installing, run npm start and go to localhost:3001 to view the web app. 
 
 ## Contact
 [Hailey Ringier](https://www.linkedin.com/in/hailey-ringier/) 
