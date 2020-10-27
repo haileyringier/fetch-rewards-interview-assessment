@@ -8,7 +8,13 @@
 * [Contact](#contact)
 
 ## General info
-The deliverables for this exercise were to fetch data from https://fetch-hiring.s3.amazonaws.com/hiring.json and display to the user. The data was to be grouped by the "listId" property and then sorted by the "name" property. Any "name" that was blank or null was to be filtered out of the data set.
+The deliverables for this exercise were to fetch data from https://fetch-hiring.s3.amazonaws.com/hiring.json and display to the user. 
+
+Display this list of items to the user based on the following requirements:
+
+    * Display all the items grouped by "listId"
+    * Sort the results first by "listId" then by "name" when displaying.
+    * Filter out any items where "name" is blank or null.
 
 Once I fetched the data I created a helper function that filters out any objects where the name proporty is either an empty string or it the name property was null. 
 

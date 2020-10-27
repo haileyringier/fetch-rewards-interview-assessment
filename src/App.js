@@ -4,7 +4,6 @@ import ListSection from './ListSection';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './Theme'
 
-// const dataUrl = 'https://cors-anywhere.herokuapp.com/https://fetch-hiring.s3.amazonaws.com/hiring.json';
 const dataUrl = 'http://localhost:3000/data'
 
 export default function App() {
@@ -20,7 +19,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <div>
         <div className="heading-section">
-        <img className='fetch-logo' src='https://www.fetchrewards.com/assets/FetchRewardsHorizontalLogo.png'></img>
+          <img className='fetch-logo' src='https://www.fetchrewards.com/assets/FetchRewardsHorizontalLogo.png'></img>
           <h1>Interview Assessment</h1>
           <p>Data is grouped by the "listId" property and then is sorted by the "name" property.</p>
           <ListSection list={dataList}/>
