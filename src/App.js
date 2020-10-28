@@ -4,17 +4,18 @@ import ListSection from './ListSection';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './Theme'
 
-const dataUrl = 'http://localhost:3000/data'
+const dataUrl = 'http://localhost:3000/data';
 
 export default function App() {
 
-    const [dataList, setDataList] = useState([])
+  const [dataList, setDataList] = useState([]);
 
-    useEffect(() => {
+  useEffect(() => {
       fetch(dataUrl)
         .then(response => response.json())
         .then(response => setDataList(response.listSortedbyNameAndListId))
-    }, [])
+    }, []);
+
   return (
     <ThemeProvider theme={theme}>
       <div>
@@ -27,7 +28,7 @@ export default function App() {
       </div>
     </ThemeProvider>
   );
-}
+};
 
 
 

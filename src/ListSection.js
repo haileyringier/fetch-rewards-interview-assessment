@@ -6,13 +6,13 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     root: {
-      background: '',
-      borderRadius: 25,
-      color: 'white',
-      marginRight: '10px',
-      marginBottom: '15px'
+        background: '',
+        borderRadius: 25,
+        color: 'white',
+        marginRight: '10px',
+        marginBottom: '15px'
     }
-  });
+});
 
 export default function ListSection(props) {
     const classes = useStyles();
@@ -33,9 +33,8 @@ export default function ListSection(props) {
     const showByListId = (event) => {
         const groupnumber = parseInt(event.target.parentNode.id)
         setShowListId(groupnumber)
-        console.log(typeof groupnumber)
-        
-    }
+    };
+    
     return(
         <div className="button-section">
             <Button classes={{root: classes.root}} id="0" variant="contained" color="secondary" onClick={showByListId}>
