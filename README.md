@@ -16,7 +16,9 @@ After I filtered the data, I then created a helper function that sorts the data 
 
 I then took the sorted data and created another helper function that groups the data by the "listId" property which reflected in all the objects with the "listId" of "1" being shown and then subsequently sorted by the "name" property. 
 
-There are five buttons that when clicked, filter the data to show the items with the corresponding "listId" the default is to show all of the items grouped by "listId" and then sorted by "name". 
+There are five buttons that when clicked, filter the data to show the items with the corresponding "listId" the default is to show all of the items grouped by "listId" and then sorted by "name".
+
+I used Materail-UI for a few key stlying components such as the Grid and Paper to display the data in an asthetically appealing and user friendly way. 
 
 
 ## Setup
